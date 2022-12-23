@@ -14,7 +14,7 @@ app.use(express.urlencoded({ extended: false }));
 
 // 기본 페이지
 app.get("/", (req, res) => {
-    res.send("안녕하세요, 레이서 프로젝트 API 입니다.");
+    res.send("안녕하세요, 김경원의 포트폴리오 Back Server 입니다.");
 });
 
 // router, service 구현 (userAuthRouter는 맨 위에 있어야 함.)
