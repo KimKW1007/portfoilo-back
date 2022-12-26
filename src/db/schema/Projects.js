@@ -8,6 +8,7 @@ const ProjectsSchema = new Schema(
     descriptionDesc : String,
     descriptionHead : String,
     distributeLink : String,
+    githubLink : String,
     period : String,
     promotionDesc : String,
     promotionHead : String,

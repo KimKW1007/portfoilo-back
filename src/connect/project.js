@@ -4,6 +4,7 @@ class projectConnect {
 
   static async getProject() {
     const project = await Projects.findAll();
+    project.reverse();
     return project;
   }
 
